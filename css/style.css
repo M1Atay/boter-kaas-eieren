@@ -1,0 +1,192 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-image: url(/img/boter\ kaa\ en\ eieren\ 2.webp);
+  width: 600px;
+  height: 750px;
+  /* width: 90%;
+  height: 100%; */
+}
+.tekst {
+  /* background-color: aqua; */
+  background-image: url(/img/plaatje.jpg);
+  width: 460px;
+  height: 100px;
+  margin-left: 580px;
+  margin-top: 10px;
+  border-radius: 10%;
+  font-size: 60px;
+  color: blue;
+}
+/* .plaats{
+   
+   margin-left: 55px;
+   color: blue;
+  
+} */
+.player1 {
+  width: 250px;
+  height: 150px;
+  /* background-color: blueviolet; */
+  background-image: url(/img/papier.jpg);
+  /* margin-left: 300px;
+    margin-top: 100px; */
+  float: left;
+  font-size: 30px;
+}
+.player2 {
+  width: 250px;
+  height: 150px;
+  /* background-color: red; */
+  background-image: url(/img/papier.jpg);
+  float: right;
+  /* margin-left: 1150px;
+    margin-top: -150px; */
+  font-size: 30px;
+}
+.wrapper {
+  background-color: white;
+  background-color: black;
+  display: grid;
+  grid-template-columns: repeat(4, 120px);
+  grid-template-rows: repeat(12, 40px);
+  /* padding: 10px; */
+  width: 385px;
+  height: 450px;
+  grid-gap: 10px;
+  /* margin: 0 auto; */
+  /* margin-top: -150px;
+    margin-left: 600px ; */
+  /* margin-top: 400px; */
+  margin-left: 270px;
+  font-family: "Algerian", cursive;
+}
+
+.box {
+  background-color: #c0ccb5;
+  background-color: white;
+  font-size: 130px;
+  text-align: center;
+  line-height: 120px;
+  padding: 10px;
+  text-align: 170px;
+  margin-top: 1px;
+  line-height: 100px;
+  border-radius: 5px;
+}
+
+.div1 {
+  grid-row: 1/4;
+  grid-column: 1/2;
+  cursor: pointer;
+}
+.div1:hover {
+  background-color: gray;
+  border: 3px solid blue;
+}
+
+.div2 {
+  grid-column: 2/3;
+  grid-row: 1/4;
+  cursor: pointer;
+}
+.div2:hover {
+  background-color: gray;
+  border: 3px solid blue;
+}
+.div3 {
+  grid-column: 3/4;
+  grid-row: 1/4;
+  cursor: pointer;
+}
+.div3:hover {
+  background-color: gray;
+  border: 3px solid blue;
+}
+
+.div4 {
+  grid-row: 4/7;
+  grid-column: 1/2;
+  cursor: pointer;
+}
+.div4:hover {
+  background-color: gray;
+  border: 3px solid blue;
+}
+.div5 {
+  grid-row: 4/7;
+  grid-column: 2/3;
+  cursor: pointer;
+}
+.div5:hover {
+  background-color: gray;
+  border: 3px solid blue;
+}
+.div6 {
+  grid-row: 4/7;
+  grid-column: 3/4;
+  cursor: pointer;
+}
+.div6:hover {
+  background-color: gray;
+  border: 3px solid blue;
+}
+
+.div7 {
+  grid-row: 7/10;
+  grid-column: 1/2;
+  cursor: pointer;
+}
+.div7:hover {
+  background-color: gray;
+  border: 3px solid blue;
+}
+
+.div8 {
+  grid-row: 7/10;
+  grid-column: 2/3;
+  cursor: pointer;
+}
+.div8:hover {
+  background-color: gray;
+  border: 3px solid blue;
+}
+
+.div9 {
+  grid-row: 7/10;
+  grid-column: 3/4;
+  cursor: pointer;
+}
+.div9:hover {
+  background-color: gray;
+  border: 3px solid blue;
+}
+.resetName {
+  width: 80px;
+  height: 50px;
+  border-radius: 10%;
+  background-color: white;
+  cursor: pointer;
+}
+.resetBoard {
+  width: 80px;
+  height: 50px;
+  border-radius: 10%;
+  background-color: red;
+  cursor: pointer;
+}
+.resetBoard:hover {
+  background-color: rgb(228, 95, 95);
+}
+.resetName:hover {
+  background-color: blue;
+}
+.blok {
+  width: 920px;
+  height: 490px;
+  background-color: transparent;
+  margin-left: 350px;
+  margin-top: 50px;
+}
